@@ -82,3 +82,17 @@ console.log("Números duplicados: " + numerosDuplicados);
 
 // Ejercicio 13: Buscar elemento
 // Función que busque un elemento en un array y devuelva su posición
+function buscarElemento(arr, elemento) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === elemento) {
+            return i; 
+        }
+    }
+    return -1; 
+}
+
+let posicion = buscarElemento(numeros, 6);
+console.log("El elemento 6 está en la posición: " + posicion);
+
+posicion = buscarElemento(numeros, 10);
+console.log("El elemento 10 está en la posición: " + posicion);
