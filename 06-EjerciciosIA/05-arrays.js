@@ -1,4 +1,4 @@
-// Ejercicio 12: Manipulación de arrays
+// Ejercicio 12: Manip ulación de arrays
 // Dado un array de números:
 // - Encuentra el máximo y mínimo
 // - Calcula el promedio
